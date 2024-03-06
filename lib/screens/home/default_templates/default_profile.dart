@@ -8,7 +8,7 @@ import 'package:atlas/screens/home/profile_page/workout_page.dart';
 class DefaultProfile extends StatefulWidget {
   final String username;
 
-  const DefaultProfile({Key? key, required this.username}) : super(key: key);
+  const DefaultProfile({super.key, required this.username});
 
   @override
   State<DefaultProfile> createState() => _DefaultProfileState();
